@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+main {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+
+.step {
+  width: 300px;
+  position: relative;
+  background-color: #EEEEEE;
+  padding: 10px;
+}
+
+.step-box {
+  background-color: #FF9A4B;
+  color: white;
+  position: absolute;
+  top:0px;
+  left: 0px;
+}
+
+.step-image{
+  height: 150px;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-title {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.flow01 {
+  background-image: url(img/flow01.png);
+}
+
+.flow02 {
+  background-image: url(img/flow02.png);
+}
+
+.flow03 {
+  background-image: url(img/flow03.png);
+}
+
+footer{
+  height: 50px;
+  background-color: #AAAAAA;  
+}

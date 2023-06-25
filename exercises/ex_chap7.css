@@ -1,0 +1,79 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.main-visual {
+  width: 100%; /* 横幅いっぱい */
+  height: 400px; /* 高さ300px */
+  background-image: url(img/mv.jpg);
+  background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: bottom; /* 背景画像を中央に配置 */
+}
+
+.main-visual-content {
+  width: 40%; /* 横幅40% */
+  height: 300px; /* 親の高さに揃える */
+  background-color: rgba(0, 0, 0, 0); /* 背景色を半透明の黒にする */
+  padding-top: 20px; /* 上側の内側余白で垂直方向の位置を調整 */
+  padding-left: 20px;
+}
+
+.main-visual-text {
+  color: gray; /* 文字色を白に変更 */
+  font-size: 32px;
+  font-weight: bold;
+}
+
+main {
+  width: 100%; /* 横幅800px */
+}
+
+.blog {
+  width: 100%;
+  height: auto;
+}
+
+.blog-box {
+  width: 840px;  
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.blog-item {
+  width: 840px;
+  padding: 30px 0px;
+  border-bottom: 1px solid lightgray;
+}
+
+.blog-image {
+  width: 200px;
+}
+
+.blog-text {
+  color: gray;
+  font-weight: bold;
+}
+
+a {
+  color: gray;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
+}
